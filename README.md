@@ -1,5 +1,10 @@
 # ROS Clothing Detection
 
+![Python](https://img.shields.io/badge/Python-3.11-blue)
+![OS](https://img.shields.io/badge/Ubuntu-20.04-orange)
+![License: MIT](https://img.shields.io/badge/License-MIT-green)
+![Status](https://img.shields.io/badge/Status-Stable-brightgreen)
+
 A **ROS Noetic** package that detects clothing items in a live video stream and
 publishes each detection as a bounding box with its class label and confidence
 score. It runs **YOLOv3 trained on ModaNet**, executed through the
@@ -175,11 +180,18 @@ roslaunch clothing_detection clothing_detection.launch threshold:=0.30 camera_in
 Clothing detection model: [axinc-ai/ailia-models](https://github.com/axinc-ai/ailia-models/tree/master/deep_fashion/clothing-detection),
 YOLOv3 trained on the ModaNet dataset.
 
-## Licence
-
-MIT — see [LICENSE](LICENSE).
-
 ## Author
 
-**Alan Beltrán** — Mechatronics Engineer, UDLAP
-[GitHub](https://github.com/Baladier) <!-- TODO: add LinkedIn -->
+Author: **Alan Beltrán**
+Based on the collaborative work of the planar-robotics team (UDLAP).
+License: [MIT](LICENSE)
+
+## Contact
+
+For questions or comments about the code:
+
+* 📧 **[alanbeltran1202@gmail.com](mailto:alanbeltran1202@gmail.com)**
+* 📧 **[alan.beltrandn@udlap.mx](mailto:alan.beltrandn@udlap.mx)**
+
+You may also open *issues* or suggestions directly in this repository.
+
