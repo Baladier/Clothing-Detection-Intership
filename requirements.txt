@@ -1,0 +1,9 @@
+# Dependencies for the nodes shipped in this package.
+# ROS Noetic provides rospy and cv_bridge at system level; only pip packages here.
+
+ailia
+numpy>=1.19,<1.25
+opencv-python>=4.5
+Pillow>=8.0
+rospkg
+pyyaml
